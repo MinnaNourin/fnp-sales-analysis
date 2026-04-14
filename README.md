@@ -97,15 +97,6 @@ fnp-sales-analysis/
 
 ---
 
-## 📸 How to Add Your Dashboard Screenshot
-
-1. Open the Excel file → go to the Dashboard sheet
-2. Press `Windows + Shift + S` (Windows) or `Cmd + Shift + 4` (Mac) to take a screenshot
-3. Save it as `dashboard_screenshot.png`
-4. Add it to this folder and push it to GitHub
-
----
-
 ## 👤 Author
 
 **[Your Name]**  
