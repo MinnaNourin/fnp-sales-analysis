@@ -97,6 +97,13 @@ Top products:
 
 ---
 
+##  Core Skills Demonstrated
+
+- Microsoft Excel → Data Analysis & Dashboarding  
+- Pivot Tables → Data Aggregation  
+- Slicers → Interactive Filtering  
+- Data Visualization → Business Insights  
+
 ## 📊 Analytical Design Principles
 
 - KPI-first structure for rapid interpretation  
