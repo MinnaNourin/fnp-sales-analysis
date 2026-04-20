@@ -1,5 +1,7 @@
 # 🌸 Ferns and Petals (FNP) — Sales Analysis Dashboard (2023)
 
+---
+
 ## 🚀 Executive Snapshot (Quick View)
 
 - 💰 Revenue: ₹35.2L  
