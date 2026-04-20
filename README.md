@@ -1,110 +1,148 @@
-# 🌸 Ferns and Petals (FNP) — Sales Analysis Dashboard
+# 🌸 Ferns and Petals (FNP) — Sales Analysis Dashboard (2023)
 
-> An end-to-end sales analytics project for FNP, a gifting company operating across occasions like Diwali, Raksha Bandhan, Valentine's Day, Birthdays, and Anniversaries.
+---
+
+## 🚀 Executive Snapshot (Quick View)
+
+- 💰 Revenue: ₹35.2L  
+- 🛍️ Orders: 1,000  
+- 📦 Avg Order Value: ₹3,521  
+- 🚚 Avg Delivery Time: 5.53 days  
+- 📈 Peak Month: August  
+- 🎯 Top Occasion: Anniversary  
+- 🏆 Top Product: Magnam Set  
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes 1,000 orders placed on the FNP platform in 2023. The goal is to uncover sales trends, customer behavior, and product performance to help the business make better decisions.
+This project analyzes sales data from FNP (Ferns and Petals) to extract actionable insights on customer behavior, product performance, and operational efficiency.
 
-The analysis was done using **Microsoft Excel** (pivot tables, charts, slicers) and compiled into an **interactive dashboard**.
+The analysis was performed using **Microsoft Excel** and presented through an interactive dashboard for business decision-making.
 
 ---
 
 ## 📊 Dashboard Preview
 
-> *(Add a screenshot of your Excel dashboard here — see instructions below)*
-
 ![Dashboard Screenshot](dashboard_screenshot.png)
 
 ---
 
-## 🎯 Business Questions Answered
+## 📈 Business Insights (Story Layer)
 
-| # | Question | Key Finding |
-|---|----------|-------------|
-| 1 | **Total Revenue** | ₹35,20,984 |
-| 2 | **Avg Delivery Time** | 5.53 days |
-| 3 | **Best Sales Month** | August (₹7,37,389) |
-| 4 | **Top Product by Revenue** | Magnam Set (₹1,21,905) |
-| 5 | **Avg Customer Spend** | ₹3,521 per order |
-| 6 | **Top Performing Occasion** | Anniversary (₹6,74,634) |
-| 7 | **Top City by Orders** | Ghaziabad & Bareilly (9 orders each) |
-| 8 | **Order Qty vs Delivery** | Higher quantity → slightly longer delivery |
-| 9 | **Revenue by Occasion** | Anniversary > Raksha Bandhan > Holi |
-| 10 | **Product Popularity by Occasion** | Varies — see dashboard filters |
+### 📅 1. Seasonal Demand Behavior
+Sales show strong seasonality rather than uniform distribution.
+
+- Peak demand: August, February  
+- Lowest demand: January  
+
+**Insight:** Revenue is strongly influenced by festival and occasion cycles.
 
 ---
 
-## 📁 Files in This Repository
+### 🎁 2. Occasion-Driven Revenue Model
+Customer purchases are event-centric.
 
-```
-fnp-sales-analysis/
-│
-├── fnp_Sales_Analysis_Excel_.xlsx   ← Main Excel file with data + dashboard
-├── dashboard_screenshot.png          ← Screenshot of the dashboard (add this!)
-└── README.md                         ← You are here
-```
+- Anniversary → highest revenue contributor  
+- Raksha Bandhan → second highest  
+
+**Insight:** Business performance is highly dependent on recurring personal and cultural events.
 
 ---
 
-## 🛠️ Tools Used
+### 📦 3. Product Concentration Effect
+Revenue is not evenly distributed across products.
 
-- **Microsoft Excel** — Pivot Tables, Charts, Slicers, Conditional Formatting
-- **Data Source** — FNP internal dataset (Orders, Products, Customers)
+Top products:
+- Magnam Set  
+- Quia Gift  
+- Dolores Gift  
+
+**Insight:** A small subset of products drives a large share of revenue (Pareto-like behavior).
 
 ---
 
-## 📈 Key Insights
+### 🚚 4. Delivery Performance Stability
+- Average delivery time: 5.53 days  
+- Slight increase with higher order volumes  
 
-### 1. 💰 Revenue
-- Total revenue across all 1,000 orders: **₹35,20,984**
-- Average order value: **₹3,521**
+**Insight:** Operational system is stable but shows mild load sensitivity.
 
-### 2. 🚚 Delivery Performance
-- Average delivery time: **5.53 days**
-- Delivery ranges from 1 to 10 days
-- Higher order quantities show a slight increase in delivery time
+---
 
-### 3. 📅 Monthly Trends
-- **August** is the top sales month — driven by Raksha Bandhan
-- **February** is second — driven by Valentine's Day
-- **January** has the lowest sales
+### 🌍 5. Geographic Distribution
+- Orders spread across multiple cities  
+- Strong participation from Tier-2 cities  
 
-### 4. 🎁 Occasion Analysis
-- **Anniversary** generates the highest revenue (₹6.7L)
-- **Raksha Bandhan** is a close second (₹6.3L)
-- **Diwali** and **Valentine's Day** underperform compared to other occasions
+**Insight:** Demand is geographically decentralized, not metro-dependent.
 
-### 5. 🏙️ City Performance
-- Orders are spread across India
-- **Ghaziabad** and **Bareilly** lead with 9 orders each
-- Tier-2 cities show strong demand
+---
 
-### 6. 📦 Top Products
-- **Magnam Set**, **Quia Gift**, and **Dolores Gift** are top revenue generators
-- These 3 products alone account for ~10% of total revenue
+## ⚙️ Methodology (Technical Summary)
+
+- Cleaned and validated 1,000-order dataset  
+- Engineered features (Month, Delivery Time)  
+- Aggregated data using pivot tables  
+- Built interactive dashboard with slicers and filters  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Microsoft Excel  
+  - Pivot Tables  
+  - Charts & Dashboards  
+  - Slicers  
+  - Conditional Formatting  
+
+---
+
+## 📊 Analytical Design Principles
+
+- KPI-first structure for rapid interpretation  
+- Separation of metrics vs insights  
+- Minimal redundancy across sections  
+- Scannable hierarchy for recruiters  
+- Story-driven interpretation layer  
+
+---
+
+## ⚠️ Limitations
+
+- Dataset size limited to 1,000 records  
+- Analysis is descriptive, not predictive  
+- Seasonality interpretation is observational  
+
+---
+
+## 🚀 Future Improvements
+
+- Sales forecasting model  
+- Customer segmentation (RFM analysis)  
+- Statistical correlation analysis  
+- Migration to Microsoft Power BI for advanced analytics  
 
 ---
 
 ## 🖥️ How to View the Dashboard
 
-1. Download the file `fnp_Sales_Analysis_Excel_.xlsx`
-2. Open it in **Microsoft Excel** (Excel 2016 or later recommended)
-3. Navigate to the **Dashboard** sheet
-4. Use the **slicers** (Occasion, Month) to filter the data interactively
+1. Download the file `fnp_Sales_Analysis_Excel_.xlsx`  
+2. Open it in **Microsoft Excel** (Excel 2016 or later recommended)  
+3. Navigate to the **Dashboard** sheet  
+4. Use slicers (Occasion, Month) to filter interactively  
 
 ---
 
 ## 👤 Author
 
-**[Your Name]**  
+Minna Nourin
 Data Analyst | Excel | SQL | Power BI  
-[LinkedIn Profile](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+
+- LinkedIn: https://www.linkedin.com/in/minnanourin/
 
 ---
 
 ## 📄 License
 
-This project is for educational and portfolio purposes only. Dataset used belongs to FNP (Ferns and Petals) — used here for analytical practice.
+This project is for educational and portfolio purposes only.  
+Dataset belongs to FNP (Ferns and Petals) and is used here for analytical practice.
