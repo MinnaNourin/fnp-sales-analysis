@@ -1,4 +1,5 @@
 # 🌸 Ferns and Petals (FNP) — Sales Analysis Dashboard (2023)
+📊 Excel-based sales analysis dashboard for FNP, analyzing 1,000 orders to generate actionable business insights.
 
 ---
 
@@ -146,10 +147,3 @@ Minna Nourin
 Data Analyst | Excel | SQL | Power BI  
 
 - LinkedIn: https://www.linkedin.com/in/minnanourin/
-
----
-
-## 📄 License
-
-This project is for educational and portfolio purposes only.  
-Dataset belongs to FNP (Ferns and Petals) and is used here for analytical practice.
