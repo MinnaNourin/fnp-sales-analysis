@@ -24,7 +24,7 @@ The analysis was performed using **Microsoft Excel** and presented through an in
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](Screenshot 2026-04-09 233337.png)
+![Dashboard](dashboard.png)
 
 ---
 
